@@ -44,6 +44,12 @@ public class GroceryManager {
      * @param amount the quantity to add
      */
     public static void restockItem(String[] names, int[] stocks, String target, int amount) {
-        // TODO (feature-restock)
+        for (int i = 0; i < names.length; i++) {
+            if (target.equals(names[i])) {
+              stocks[i] += amount;
+              return;
+            } 
+        }
+        System.out.println("Item not found.");
     }
 }
