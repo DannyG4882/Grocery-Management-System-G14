@@ -30,7 +30,6 @@ public class GroceryManager {
         itemPrices[1] = 3.49;
         itemStocks[1] = 20; */
 
-        // TODO (feature-menu): Scanner + while(true) menu
         Scanner scanner = new Scanner(System.in); // Scanner to read user input
         while (true) {
             // Main menu display of choices
@@ -74,7 +73,7 @@ public class GroceryManager {
      * @param stocks item stock counts
      */
     public static void printInventory(String[] names, double[] prices, int[] stocks) {
-        // TODO (feature-display)
+          //// TODO (feature-display)
     }
 
     /**
