@@ -5,7 +5,7 @@ import java.util.Scanner;
  * and stock levels using parallel arrays, where the same index in each
  * array refers to the same item.
  *
- * @author Group 14: Anthony Tijerina, Ezea Ede ..., 
+ * @author Group 14: Anthony Tijerina, Ezea Ede, Muhammad Musa, Daniel Garcia 
  * @version 1.0
  */
 public class GroceryManager {
@@ -22,13 +22,13 @@ public class GroceryManager {
         int[] itemStocks = new int[10];
 
         // Test items doesnt need to be in main code.
-        /* itemNames[0] = "Apples";
+        itemNames[0] = "Apples";
         itemPrices[0] = 0.99;
         itemStocks[0] = 50;
 
         itemNames[1] = "Notebook";
         itemPrices[1] = 3.49;
-        itemStocks[1] = 20; */
+        itemStocks[1] = 20;
 
         Scanner scanner = new Scanner(System.in); // Scanner to read user input
         while (true) {
