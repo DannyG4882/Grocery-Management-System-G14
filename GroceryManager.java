@@ -5,7 +5,7 @@ import java.util.Scanner;
  * and stock levels using parallel arrays, where the same index in each
  * array refers to the same item.
  *
- * @author Group 14: Anthony Tijerina, Ezea Ede ..., 
+ * @author Group 14: Anthony Tijerina, Ezea Ede, Muhammad Musa, Daniel Garcia 
  * @version 1.0
  */
 public class GroceryManager {
