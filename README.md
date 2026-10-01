@@ -38,3 +38,7 @@ The inventory is stored using three parallel arrays:
 String[] itemNames = new String[10];
 double[] itemPrices = new double[10];
 int[] itemStocks = new int[10];
+
+## UML Class Diagram
+
+![GroceryManager UML Class Diagram](GroceryManager-UML.png)
