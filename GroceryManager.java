@@ -12,7 +12,7 @@ public class GroceryManager {
 
     /**
      * Entry point. Initializes the inventory arrays and runs the user menu.
-     * The main mehtod runs a continuous command-line menu allowing the user to view
+     * The main method runs a continuous command-line menu allowing the user to view
      * inventory, restock items, or exit the program.
      * @param args command-line arguments (not used)
      */
