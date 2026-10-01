@@ -22,13 +22,13 @@ public class GroceryManager {
         int[] itemStocks = new int[10];
 
         // Test items doesnt need to be in main code.
-        /* itemNames[0] = "Apples";
+        itemNames[0] = "Apples";
         itemPrices[0] = 0.99;
         itemStocks[0] = 50;
 
         itemNames[1] = "Notebook";
         itemPrices[1] = 3.49;
-        itemStocks[1] = 20; */
+        itemStocks[1] = 20;
 
         Scanner scanner = new Scanner(System.in); // Scanner to read user input
         while (true) {
@@ -73,7 +73,17 @@ public class GroceryManager {
      * @param stocks item stock counts
      */
     public static void printInventory(String[] names, double[] prices, int[] stocks) {
-          //// TODO (feature-display)
+        for (int i = 0; i < names.length; i++) {
+            if (names[i] != null) {
+                System.out.println(
+                    "Item: " + names[i]
+                    + " | Price: $" + prices[i]
+                    + " | Stock: " + stocks[i]
+                );
+            } else {
+                continue;
+            }
+        }
     }
 
     /**
@@ -88,9 +98,9 @@ public class GroceryManager {
     public static void restockItem(String[] names, int[] stocks, String target, int amount) {
         for (int i = 0; i < names.length; i++) {
             if (target.equals(names[i])) {
-              stocks[i] += amount;
-              return;
-            } 
+                stocks[i] += amount;
+                return;
+            }
         }
         System.out.println("Item not found.");
     }
