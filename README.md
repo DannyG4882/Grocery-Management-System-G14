@@ -6,6 +6,10 @@ This project is a simple grocery management system written in Java. The program 
 
 The purpose of this assignment is to practice Java programming, GitHub collaboration, branching, merging, documentation, and team-based software development.
 
+## UML Class Diagram
+
+![GroceryManager UML Class Diagram](GroceryManager-UML.png)
+
 ## How the Program Works
 
 When the program starts, the user is shown an inventory menu with three options:
@@ -38,7 +42,3 @@ The inventory is stored using three parallel arrays:
 String[] itemNames = new String[10];
 double[] itemPrices = new double[10];
 int[] itemStocks = new int[10];
-
-## UML Class Diagram
-
-![GroceryManager UML Class Diagram](GroceryManager-UML.png)
